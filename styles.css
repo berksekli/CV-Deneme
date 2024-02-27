@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Koyu gri arka plan */
+  color: #ffffff; /* Beyaz metin rengi */
+  margin: 0;
+  padding: 0;
+  
+}
+.table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+.container {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid #004080; /* Açık maviye yakın bir sınır rengi */
+  border-radius: 10px;
+  background-color: #333333; /* Koyu gri içerik arka planı */
+  box-shadow: 0 0 10px rgba(0, 128, 255, 0.5); /* Hafif bir gölge */
+}
+
+h1, h2, h3 {
+  color: #66c2ff; /* Açık mavi tonlarından biri */
+}
+
+p {
+  color: #ffffff; /* Beyaz metin rengi */
+}
+
+a {
+  color: #66c2ff; /* Açık mavi linkler */
+  text-decoration: none; /* Altı çizili linkler kaldırılsın */
+}
+
+a:hover {
+  color: #99ccff; /* Hovder rengi değişikliği */
+}
+.city {
+      overflow: hidden; /* İçerik kaymasını engellemek için */
+  }
+  
+  #a, #b {
+      display: inline-block; /* Kutucukları blok içinde yan yana yerleştirir */
+      width: 100%; /* Sayfanın yarısını kaplar */
+      background-color: #333333;
+      color: #ffffff;
+      border: 3px solid #004080; /* Açık maviye yakın bir sınır rengi */
+      border-radius: 10px;
+      padding: 5px;
+      box-sizing: border-box; /* Kutu modelini sınır kutusu olarak ayarlar */
+      vertical-align: top; /* Kutuların en üstte hizalanmasını sağlar */
+  }
+  nav {
+    float: flex; 
+    width: 30%; 
+  }
+
+  article {
+    float: left; /* Sol tarafta konumlandır */
+    width: 70%; /* Genişlik */
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .link {
+    color: #66c2ff;
+    box-shadow: rgba(0, 128, 255, 0.5);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .skill-bar {
+    width: 150px; /* Bar genişliği */
+    background-color: #f0f0f0; /* Bar arka plan rengi */
+    border-radius: 5px; /* Bar kenar yuvarlaklığı */
+    margin-bottom: 10px; /* Barlar arası boşluk */
+  }
+
+  .skill-level {
+    height: 20px; /* Bar yüksekliği */
+    background-color: #66c2ff; /* Yetenek seviyesi dolu kısmın rengi */
+    border-radius: 5px; /* Bar kenar yuvarlaklığı */
+    text-align: right; /* Yetenek seviyesi metni sağa hizalanır */
+    color: #6f6f6f; /* Yetenek seviyesi metni rengi */
+    font-weight: bold; /* Yetenek seviyesi metni kalın yapılır */
+    line-height: 20px; /* Metin yüksekliği ile çubuk yüksekliği aynı olacak şekilde hizalama */
+  } 
