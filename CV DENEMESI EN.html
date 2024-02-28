@@ -7,21 +7,7 @@
     <title>Tugrul Berk Sekli CV</title>
     <link href="C:\Users\Tuğrul Berk Şekli\Desktop\Berk Sekli CV\favicon.ico" rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-    <script>
-        function showContent(contentId) {
-            var contents = document.querySelectorAll('.content');
-            for (var i = 0; i < contents.length; i++) {
-                contents[i].style.display = 'none';
-            }
-            var contentToShow = document.getElementById(contentId);
-            if (contentToShow) {
-                contentToShow.style.display = 'block';
-            }
-                window.onload = function () {
-                showContent('Hakkımda');
-            };
-        }
-    </script>
+    <script src="scripts.js"></script>
 
 </head>
 
@@ -44,7 +30,7 @@
             <br>+90 539 393 0307
             <br><a href="mailto:berksekli@gmail.com">berksekli@gmail.com</a>
             <br><a href="https://www.linkedin.com/in/tugrul-berk-sekli">LinkedIn Profili</a>
-            <br>
+            <br><a href="https://github.com/berksekli">GitHub Profili</a>
         </p>
         <div style="background-color: #333333;">
 
@@ -65,7 +51,7 @@
         </div>
         <div class="content" id="Yetenekler" style="display: none;">
             <div class="city" id="a">
-                <h1>Yetenekler</h1>
+                <h1>Skills</h1>
                 WordPress
                 <div class="skill-bar">
                     <div class="skill-level" style="width: 35%;"></div>
@@ -205,13 +191,12 @@
         </div>
         <div class="content" id="Hakkımda">
             <div class="city" id="a">
-                <h2>Hakkımda</h2>
-                <p>2014 yılında Doğa Koleji Eğitim Kurumunda bölge planlama sorumluluğu
-                    işi ile operasyon süreçlerini deneyimleme fırsatı buldum. Ardından 2015
-                    yılında Üsküdar Üniversitesi’nin araç operasyonlarıyla ilgili görev aldım.
-                    2019 yılının sonundan itibaren ise E-Ticaret Operasyonları bölümünde
-                    kariyerime devam ediyorum ve E-Ticaret süreçleriyle ilgili genel bilgilere
-                    hakimim.</p>
+                <h2>About Me</h2>
+                <p>In 2014, I had the opportunity to experience regional planning responsibilities and operational processes at 
+                    Doga College Education Institution. Subsequently, in 2015, I took on tasks related to vehicle operations at 
+                    Uskudar University. Since the end of 2019, I have been continuing my career in the E-Commerce Operations department,
+                    where I am knowledgeable about general information related to E-Commerce processes.
+                </p>
                     
             </div>
         </div>
