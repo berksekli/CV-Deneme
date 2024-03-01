@@ -89,3 +89,11 @@ a:hover {
     font-weight: bold; /* Yetenek seviyesi metni kalın yapılır */
     line-height: 20px; /* Metin yüksekliği ile çubuk yüksekliği aynı olacak şekilde hizalama */
   } 
+  .button-type {
+    background-color: rgba(0, 128, 255, 0.5);
+    color: white;
+    box-shadow: rgba(0, 128, 255, 0.5);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
